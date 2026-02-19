@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-frauddetector`](https://www.npmjs.com/package/@aws-sdk/client-frauddetector/v/3.521.0).
+[`@aws-sdk/client-frauddetector`](https://www.npmjs.com/package/@aws-sdk/client-frauddetector/v/3.523.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.521.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.523.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-ihcRc79mzlvWvPZa2HmdlCOY/EzrZRHeHNxhG3w+DcBBaF3jh1Z54bo+84J3C1TZ
+sha384-NB0dgxlJ1V2P+QGePRMfztTTQttkktZTJN3Q+ov5Y5GiEpaZG66ln7d69iP5a1eI
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-frauddetector": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.521.0/index.min.mjs"
+            "@aws-sdk/client-frauddetector": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.523.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.521.0/index.min.mjs": "sha384-ihcRc79mzlvWvPZa2HmdlCOY/EzrZRHeHNxhG3w+DcBBaF3jh1Z54bo+84J3C1TZ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.523.0/index.min.mjs": "sha384-NB0dgxlJ1V2P+QGePRMfztTTQttkktZTJN3Q+ov5Y5GiEpaZG66ln7d69iP5a1eI"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-frauddetector": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.521.0/index.min.mjs"
+                        "@aws-sdk/client-frauddetector": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.523.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.521.0/index.min.mjs": "sha384-ihcRc79mzlvWvPZa2HmdlCOY/EzrZRHeHNxhG3w+DcBBaF3jh1Z54bo+84J3C1TZ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-frauddetector@3.523.0/index.min.mjs": "sha384-NB0dgxlJ1V2P+QGePRMfztTTQttkktZTJN3Q+ov5Y5GiEpaZG66ln7d69iP5a1eI"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.521.0`)
+* Always pin to a specific version (`@3.523.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-frauddetector/blob/refs/tags/3.521.0/LICENSE
+https://github.com/cloud-sdk-builds/client-frauddetector/blob/refs/tags/3.523.0/LICENSE
 ```
 
 ---
